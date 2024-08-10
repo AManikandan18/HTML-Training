@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--element selector -->    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>welcome this is element selector</h1>
+    <p>welcome all</p>
+</body>
+<!--id selector -->
+<head>
+    <style>
+        #head1{
+            text-align: right;
+            color: rgb(219, 28, 28);
+            
+        }
+    </style>
+</head>
+<h1 id="head1">hi</h1>
+<h2 id="head1">hello</h2>
+
+<!--class selector -->
+<head>
+    <style>
+        .back{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="back">this is class selector</h1>
+
+</body>
+<!--we can restricted the class selector -->
+<head>
+    <style>
+        h1.back{
+            background-color: blue;
+        }
+        font{
+        color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="back">this is class selector</h1>
+    <p class="back">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, tempore.</p>
+    <!-- <p> tag not apply or take the class back selectors because i give restricted to any tag except <h1> tag  -->
+    <p class="back">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, tempore.</p>
+    <!-- we can use multiply class selectors in single element-->
+    <h1 class="font">this is used multi class selectors</h1> 
+    
+    
+</body>
+</html>
