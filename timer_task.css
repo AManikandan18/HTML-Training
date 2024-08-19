@@ -1,0 +1,60 @@
+h1{
+
+    justify-content: center;
+    font-style: italic;
+    color: aqua;
+}
+.box{
+    /* border: 2px;
+    border-radius: 20px;
+    height: 30%;
+    width: 40%;
+    background-color: aqua; */
+    border: 1px;
+    border-color: blue;
+    border-radius: 25px;
+    background-color:blueviolet ;
+    height: 70%;
+    width: 30%;
+    position: absolute;
+    margin-left: 35%;
+}
+.start{
+    /* padding-left: 30%; */
+    background-color: violet;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 80%;
+    height: 30px;
+    width: 20%;
+    cursor: pointer;    
+}
+button{
+    background-color: white;
+}
+.default_time {
+    /* The following lines are commented out and will not take effect */
+    /* padding-left: 35%; */
+    /* padding-top: 0%; */
+    /* color: white; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lion{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    
+}
+img{
+    height:100px;
+    width: 100px;
+    transition: transform 99ms;
+   
+}
+img:hover{
+    transform: scale(0);
+    cursor: pointer;
+}
